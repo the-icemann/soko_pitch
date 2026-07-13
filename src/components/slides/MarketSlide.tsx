@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import { useInView } from '../../hooks/useInView'
 
 const stats = [
-  { value: 8,   suffix: 'B+', prefix: '$', label: 'Uganda annual agricultural output' },
+  { value: 4,   suffix: 'B+', prefix: 'UGX', label: 'Minimum Uganda annual agricultural output' },
   { value: 3.5, suffix: 'M+', prefix: '',  label: 'Smallholder farming households' },
   { value: 68,  suffix: '%',  prefix: '',  label: "Of Uganda's workforce in agriculture" },
   { value: 40,  suffix: 'B+', prefix: '$', label: 'East Africa agritech addressable market' },
