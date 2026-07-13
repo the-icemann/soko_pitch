@@ -86,7 +86,9 @@ export default function ClosingSlide() {
         </div>
 
         <a
-          href="mailto:andrewssuubi@gmail.com"
+          href="https://wa.me/256750066399?text=Hi%2C%20I%27m%20reaching%20out%20about%20the%20Soko%20agricultural%20marketplace%20pitch."
+          target="_blank"
+          rel="noopener noreferrer"
           className="cl-cta inline-block bg-soko-accent text-soko-dark font-bold text-base sm:text-lg px-8 py-4 rounded-xl hover:bg-yellow-400 hover:scale-105 transition-all duration-200 shadow-xl"
         >
           Get in Touch →
