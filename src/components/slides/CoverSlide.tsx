@@ -103,7 +103,7 @@ export default function CoverSlide() {
         }}
       />
 
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full">
         <div className="flex justify-center w-full overflow-hidden mb-4" aria-label="SOKO">
           {'SOKO'.split('').map((letter, i) => (
             <span
@@ -122,7 +122,7 @@ export default function CoverSlide() {
 
         <div className="cover-divider h-0.5 bg-white/30 w-64 mx-auto mb-6 origin-left" />
 
-        <p className="cover-tagline text-white text-xl sm:text-2xl font-semibold tracking-widest uppercase mb-3">
+        <p className="cover-tagline text-white text-base sm:text-xl md:text-2xl font-semibold tracking-wider sm:tracking-widest uppercase mb-3">
           Agricultural Marketplace Platform
         </p>
         <p className="cover-sub text-white/70 text-base sm:text-lg italic mb-10">

@@ -24,10 +24,10 @@ export default function BizModelSlide() {
   ])
 
   return (
-    <section id="bizmodel" ref={ref} className="min-h-screen flex items-center bg-white pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16">
+    <section id="bizmodel" ref={ref} className="min-h-screen flex items-center bg-white pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="biz-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">Business Model</p>
-        <h2 className="biz-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
+        <h2 className="biz-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           Multiple revenue streams<br className="hidden sm:block" /> from day one.
         </h2>
         <p className="biz-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-12 leading-relaxed">
@@ -36,7 +36,7 @@ export default function BizModelSlide() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
           {streams.map((s, i) => (
-            <div key={i} className="biz-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 border-b-4 border-b-soko-light hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+            <div key={i} className="biz-card bg-white rounded-2xl p-4 sm:p-6 shadow-md border border-gray-100 border-b-4 border-b-soko-light hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
               <div className="text-3xl mb-4">{s.icon}</div>
               <h3 className="font-bold text-soko-dark text-base mb-2">{s.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed flex-1 mb-4">{s.body}</p>

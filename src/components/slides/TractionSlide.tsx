@@ -23,10 +23,10 @@ export default function TractionSlide() {
   ])
 
   return (
-    <section id="traction" ref={ref} className="min-h-screen flex items-center bg-soko-pale pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16">
+    <section id="traction" ref={ref} className="min-h-screen flex items-center bg-soko-pale pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="trac-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">What We've Built</p>
-        <h2 className="trac-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
+        <h2 className="trac-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           Platform complete.<br className="hidden sm:block" /> Production-ready.
         </h2>
         <p className="trac-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-10 leading-relaxed">
@@ -35,7 +35,7 @@ export default function TractionSlide() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {items.map((item, i) => (
-            <div key={i} className="trac-item flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div key={i} className="trac-item flex items-start gap-3 bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="w-8 h-8 bg-soko rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 shadow-md">
                 <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />

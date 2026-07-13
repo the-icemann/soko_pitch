@@ -34,14 +34,14 @@ export default function TechSlide() {
   ])
 
   return (
-    <section id="tech" ref={ref} className="min-h-screen flex items-center bg-soko-dark pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16 relative overflow-hidden">
+    <section id="tech" ref={ref} className="min-h-screen flex items-center bg-soko-dark pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5"
         style={{ backgroundImage: 'linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px)', backgroundSize: '60px 60px' }}
       />
 
       <div className="max-w-6xl mx-auto w-full relative z-10">
         <p className="tech-label text-soko-accent text-xs font-bold tracking-[0.3em] uppercase mb-3">Technology Edge</p>
-        <h2 className="tech-heading text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-4">
+        <h2 className="tech-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4">
           Built for Uganda.<br className="hidden sm:block" /> Powered by AI. Designed to scale.
         </h2>
         <p className="tech-sub text-white/60 text-base sm:text-lg max-w-2xl mb-10 leading-relaxed">

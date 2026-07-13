@@ -27,10 +27,10 @@ export default function ProductSlide() {
   ])
 
   return (
-    <section id="product" ref={ref} className="min-h-screen flex items-center bg-soko-pale pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16">
+    <section id="product" ref={ref} className="min-h-screen flex items-center bg-soko-pale pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="prd-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">The Product</p>
-        <h2 className="prd-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
+        <h2 className="prd-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           One platform. Every channel.<br className="hidden sm:block" /> Every farmer.
         </h2>
         <p className="prd-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-12 leading-relaxed">
@@ -39,7 +39,7 @@ export default function ProductSlide() {
 
         <div className="relative mb-12">
           <div className="hidden lg:block absolute top-8 left-[4.5rem] right-[4.5rem] h-0.5 bg-soko-light" />
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {steps.map((s, i) => (
               <div key={i} className="flow-step bg-white rounded-2xl p-5 text-center shadow-sm hover:shadow-md transition-shadow relative group">
                 <div className="w-10 h-10 rounded-full bg-soko text-white font-black text-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-soko-dark transition-colors">

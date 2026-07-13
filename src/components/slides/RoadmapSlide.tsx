@@ -22,10 +22,10 @@ export default function RoadmapSlide() {
   ])
 
   return (
-    <section id="roadmap" ref={ref} className="min-h-screen flex items-center bg-white pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16">
+    <section id="roadmap" ref={ref} className="min-h-screen flex items-center bg-white pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="rm-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">Roadmap</p>
-        <h2 className="rm-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
+        <h2 className="rm-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           Clear milestones from launch<br className="hidden sm:block" /> to East Africa scale.
         </h2>
         <p className="rm-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-12 leading-relaxed">

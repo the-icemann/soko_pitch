@@ -26,10 +26,10 @@ export default function SolutionSlide() {
   ])
 
   return (
-    <section id="solution" ref={ref} className="min-h-screen flex items-center bg-soko-pale pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16">
+    <section id="solution" ref={ref} className="min-h-screen flex items-center bg-soko-pale pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="sol-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">The Solution</p>
-        <h2 className="sol-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-12">
+        <h2 className="sol-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-12">
           Soko puts market intelligence<br className="hidden sm:block" /> in every farmer's hands.
         </h2>
 

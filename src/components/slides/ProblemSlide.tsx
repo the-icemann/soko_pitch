@@ -24,10 +24,10 @@ export default function ProblemSlide() {
   ])
 
   return (
-    <section id="problem" ref={ref} className="min-h-screen flex items-center bg-white pt-24 pb-16 sm:py-20 px-6 lg:px-16 scroll-mt-16">
+    <section id="problem" ref={ref} className="min-h-screen flex items-center bg-white pt-20 pb-12 sm:py-20 px-6 lg:px-16 scroll-mt-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="prob-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">The Problem</p>
-        <h2 className="prob-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
+        <h2 className="prob-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           Uganda's farmers are<br className="hidden sm:block" /> selling in the dark.
         </h2>
         <p className="prob-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-8 leading-relaxed">

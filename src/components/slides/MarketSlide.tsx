@@ -62,10 +62,10 @@ export default function MarketSlide() {
   ])
 
   return (
-    <section id="market" ref={ref} className="min-h-screen flex items-center bg-white pt-24 pb-16 sm:py-20 px-6 scroll-mt-16 lg:px-16">
+    <section id="market" ref={ref} className="min-h-screen flex items-center bg-white pt-20 pb-12 sm:py-20 px-6 scroll-mt-16 lg:px-16">
       <div className="max-w-6xl mx-auto w-full">
         <p className="mkt-label text-soko text-xs font-bold tracking-[0.3em] uppercase mb-3">Market Opportunity</p>
-        <h2 className="mkt-heading text-4xl sm:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
+        <h2 className="mkt-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           A massive, underserved market<br className="hidden sm:block" /> at a digital tipping point.
         </h2>
         <p className="mkt-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-10 leading-relaxed">
