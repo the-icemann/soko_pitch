@@ -10,7 +10,7 @@ const steps = [
 ]
 
 const channels = [
-  { icon: '💻', title: 'Web App (PWA)',  body: 'React 19 Progressive Web App. Works offline. Installable on Android. Role-personalised dashboards.' },
+  { icon: '💻', title: 'Web App (PWA)',  body: 'React 19 Progressive Web App. Works offline. Installable on Android, IOS or any Device. Role-personalised dashboards.' },
   { icon: '📱', title: 'USSD (*237#)',  body: 'Zero data cost. Any phone. Browse prices, check sell signals, and place orders through a simple menu.' },
   { icon: '🔔', title: 'Notifications', body: "Push, SMS, and email alerts for orders, price thresholds, and buyer matches via Africa's Talking." },
 ]
@@ -34,7 +34,7 @@ export default function ProductSlide() {
           One platform. Every channel.<br className="hidden sm:block" /> Every farmer.
         </h2>
         <p className="prd-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-12 leading-relaxed">
-          Soko handles the full agricultural commerce lifecycle — from price discovery to order fulfilment and payment.
+          Soko handles the full agricultural commerce lifecycle... from price discovery to order fulfilment and payment.
         </p>
 
         <div className="relative mb-12">
