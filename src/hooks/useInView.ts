@@ -1,4 +1,5 @@
-import { useEffect, RefObject } from 'react'
+import { useEffect } from 'react'
+import type { RefObject } from 'react'
 import gsap from 'gsap'
 
 interface InViewOptions {
@@ -16,7 +17,7 @@ interface InViewOptions {
  * Elements are never opacity:0 — they start offset in Y/X and slide to natural position.
  * Guaranteed visible even if animation doesn't fire.
  */
-export function useInView(containerRef: RefObject<HTMLElement>, animations: InViewOptions[]) {
+export function useInView(containerRef: RefObject<HTMLElement | null>, animations: InViewOptions[]) {
   useEffect(() => {
     const el = containerRef.current
     if (!el) return
