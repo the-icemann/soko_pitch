@@ -3,9 +3,9 @@ import { useInView } from '../../hooks/useInView'
 
 const phases = [
   { label: '1–3 Months', borderColor: 'border-soko', labelColor: 'text-soko', dotColor: 'bg-soko',
-    items: ['Integrate real price feeds (MAAIF Uganda, RATIN East Africa, WFP VAM)', 'Automate farmer payouts via MTN MoMo & Airtel Money', 'Email & phone verification at sign-up', 'Password reset and Apple Sign-In', 'Production domain & SSL', 'Google Maps API for accurate road distances', 'Farmer & buyer onboarding in 6 districts'] },
+    items: ['Integrate more price feeds (MAAIF Uganda, RATIN East Africa, WFP VAM)', 'Automate farmer payouts via MTN MoMo & Airtel Money', 'Email & phone verification at sign-up', 'Password reset and Apple Sign-In', 'Production domain & SSL', 'Google Maps API for accurate road distances', 'Farmer & buyer onboarding in provisioned 6 districts','Design an Admin Dashboard to streamline business operations, add or remove produce, track performance as well as metric logging'] },
   { label: '3–6 Months', borderColor: 'border-soko-accent', labelColor: 'text-soko-accent', dotColor: 'bg-soko-accent',
-    items: ['Expand to 10+ markets (Jinja, Soroti, Fort Portal, Arua)', 'Add groundnuts, simsim, sunflower (Northern Uganda crops)', 'Hybrid collaborative filtering for recommendations', 'USSD price threshold alerts', 'Escrow payment model to reduce fraud', 'CDN for static assets & horizontal scaling', 'Centralized log aggregation (ELK / Grafana)'] },
+    items: ['Expand to 10+ markets (Jinja, Soroti, Fort Portal, Arua)', 'Widen Produce Scope to cater for as much produce as possible', 'Hybrid collaborative filtering for recommendations', 'USSD price threshold alerts', 'Escrow payment model to reduce fraud', 'CDN for static assets & horizontal scaling', 'Centralized log aggregation (ELK / Grafana)'] },
   { label: '6–18 Months', borderColor: 'border-soko-dark', labelColor: 'text-soko-dark', dotColor: 'bg-soko-dark',
     items: ['Kenya (KES) & Tanzania (TZS) expansion', 'Weather integration (Uganda Met Authority)', 'Satellite imagery for harvest yield signals', 'Group selling — village-level bulk orders', 'Credit scoring for microfinance partners', 'Logistics integration with boda-boda networks', 'Natural language farmer advisory via USSD'] },
 ]

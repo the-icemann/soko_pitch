@@ -29,7 +29,7 @@ export default function AskSlide() {
     const observer = new IntersectionObserver(([entry]) => {
       if (!entry.isIntersecting) return
       gsap.to(obj, {
-        val: 50, duration: 2, ease: 'power2.out',
+        val: 85, duration: 2, ease: 'power2.out',
         onUpdate() { setAmount(Math.floor(obj.val).toLocaleString()) },
       })
       observer.disconnect()
@@ -54,7 +54,8 @@ export default function AskSlide() {
           <div className="text-soko-accent font-black text-6xl sm:text-8xl leading-none mb-3">
             {amount}M UGX
           </div>
-          <p className="text-white/70 text-base">18-month runway to reach breakeven on transaction fees</p>
+          <p className="text-white/70 text-base mb-1">Estimated to approximately $23,000 USD</p>
+        
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

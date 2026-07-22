@@ -94,8 +94,8 @@ export default function ClosingSlide() {
           Get in Touch →
         </a>
 
-        <p className="cl-cta mt-6 text-white/40 text-xs">
-          Confidential · This content, software as well as developmental rights are owned, patented and copyrighted by <b>Angel Agencies Limited</b> and is intended for investor use only. Soko Agricultural Marketplace · 2026
+        <p className="cl-cta mt-6 text-white/80 text-xs">
+          Confidential · This content, software as well as developmental rights are owned, patented and copyrighted by <b>Angel Agencies Limited Uganda</b> and is intended for investor use only. Soko Agricultural Marketplace · 2026
 
         </p>
 

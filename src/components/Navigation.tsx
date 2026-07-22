@@ -9,6 +9,7 @@ const links = [
   { id: 'bizmodel', label: 'Revenue' },
   { id: 'traction', label: 'Traction' },
   { id: 'roadmap', label: 'Roadmap' },
+  { id: 'team', label: 'Team' },
   { id: 'ask', label: 'The Ask' },
 ]
 
