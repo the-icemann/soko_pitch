@@ -3,16 +3,16 @@ import { useInView } from '../../hooks/useInView'
 
 const moats = [
   { title: '48 Prophet ML Models', highlight: true,
-    body: "One model per crop-market combination. Each encodes Uganda's bimodal rainfall seasonality — March–May and Aug–Nov rains — driving two distinct harvest and lean cycles per year. Calibrated to actual Ugandan price behaviour." },
+    body: "One model per crop-market combination. Each encodes Uganda's bimodal rainfall seasonality (March–May) and Aug–Nov rains, driving two distinct harvest and lean cycles per year. Calibrated to actual Ugandan price behaviour." },
   { title: 'Smart Market Routing', highlight: true,
-    body: "Given a farmer's location, crop, and quantity — our engine ranks every nearby market by net value after transport. Integrates predicted price, real road distance, and sell/wait/perishable signals. No competitor in Uganda does this." },
+    body: "Given a farmer's location, crop, and quantity, our engine ranks every nearby market by net value after transport. Integrates predicted price, real road distance, and sell/wait/perishable signals. No competitor in Uganda does this." },
   { title: 'Content-Based Matching', highlight: false,
     body: 'Multi-factor match score: crop overlap (40%), district proximity (25%), seller rating (20%), fulfilment reliability (10%), interaction history (5%). Designed to avoid cold-start bias for new farmers.' },
   { title: 'Event-Driven at Core', highlight: false,
     body: 'Apache Kafka backbone decouples every service. A single transaction event simultaneously triggers buyer notification and ML interaction update — no direct service-to-service coupling.' },
   { title: 'Domain-Isolated Services', highlight: false,
     body: '9 independent microservices each with its own Postgres database. Auth, users, produce, orders, payments, notifications, messaging, blog, USSD. Failure in one never cascades.' },
-  { title: 'USSD — Zero Data', highlight: false,
+  { title: 'USSD: Zero Data', highlight: false,
     body: "Africa's Talking USSD gateway gives feature-phone farmers access to live price intelligence at zero data cost. Uganda has ~50% smartphone penetration — we serve the other half." },
 ]
 
@@ -45,7 +45,7 @@ export default function TechSlide() {
           Built for Uganda.<br className="hidden sm:block" /> Powered by AI. Designed to scale.
         </h2>
         <p className="tech-sub text-white/60 text-base sm:text-lg max-w-2xl mb-10 leading-relaxed">
-          Our technology stack is a genuine moat — not generic software applied to agriculture, but intelligence engineered for Uganda's specific seasonal patterns and market realities.
+          Our technology stack is not generic software applied to agriculture, but intelligence engineered for Uganda's specific seasonal patterns and market realities.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">

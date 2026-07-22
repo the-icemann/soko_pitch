@@ -9,6 +9,7 @@ import BizModelSlide from './components/slides/BizModelSlide'
 import TractionSlide from './components/slides/TractionSlide'
 import RoadmapSlide from './components/slides/RoadmapSlide'
 import WhyNowSlide from './components/slides/WhyNowSlide'
+import TeamSlide from './components/slides/TeamSlide'
 import AskSlide from './components/slides/AskSlide'
 import ClosingSlide from './components/slides/ClosingSlide'
 
@@ -27,6 +28,7 @@ export default function App() {
         <TractionSlide />
         <RoadmapSlide />
         <WhyNowSlide />
+        <TeamSlide />
         <AskSlide />
         <ClosingSlide />
       </main>

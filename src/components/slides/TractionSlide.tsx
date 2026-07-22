@@ -29,10 +29,7 @@ export default function TractionSlide() {
         <h2 className="trac-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-soko-dark leading-tight mb-4">
           Platform complete.<br className="hidden sm:block" /> Production-ready.
         </h2>
-        <p className="trac-sub text-gray-500 text-base sm:text-lg max-w-2xl mb-10 leading-relaxed">
-          Soko is not a pitch for an idea — it is a working product, fully engineered, tested, and ready for deployment.
-        </p>
-
+      
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {items.map((item, i) => (
             <div key={i} className="trac-item flex items-start gap-3 bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow duration-300">
